@@ -1,0 +1,64 @@
+section.albumPg {
+  height: 658px;
+
+  aside {
+    position: absolute;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 19%;
+    height: 658px;
+    background-color: #847577;
+
+        button {
+          display: block;
+          width: 80%;
+          height: 6%;
+          margin: 21% auto;
+          font-size: 139%;
+        }
+
+  }
+  div.home02 {
+    h3 {
+      text-align: center;
+    }
+    display: inline-block;
+    height: 100%;
+    padding: 0;
+    width: 79.7%;
+    position: relative;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+
+    div.cookie {
+      height: 264px;
+      width: 25%;
+      margin: 2% 4%;
+      padding: 0;
+      background-color: #fbfbf2;
+      display: inline-block;
+
+          div.cutter {
+          width: 89%;
+          height: 72%;
+          margin: auto;
+          margin-top: 6%;
+          padding: 0;
+          background-color: #cccccc;
+          overflow: hidden;
+          img {
+            height: 140%;
+            position: relative;
+            top: 50%;
+            left: -22.5%;
+            transform: translateY(-50%);
+          }
+        }
+
+    }
+
+  }
+
+}

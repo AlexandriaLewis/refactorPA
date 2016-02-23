@@ -1,0 +1,57 @@
+section.myAlbums {
+
+  height: 850px;
+  width: inherit;
+  margin:0;
+  padding:0;
+
+  header {
+    margin:0;
+    padding:0;
+    height: 140px;
+    width: 100%;
+    background-color: #847577;
+    position: relative;
+    h1 {
+      position: absolute;
+      left: 38%;
+      top: -6%;
+    }
+
+  }
+
+  div.home01 {
+    margin:0;
+    padding:0;
+    width: 100%;
+
+    div.cookie {
+      height: 300px;
+      width: 29%;
+      margin: 2% 2%;
+      padding: 0;
+      background-color: #fbfbf2;
+      display: inline-block;
+
+          div.cutter {
+          width: 89%;
+          height: 72%;
+          margin: auto;
+          margin-top: 6%;
+          padding: 0;
+          background-color: #cccccc;
+          overflow: hidden;
+          img {
+            height: 140%;
+            position: relative;
+            top: 50%;
+            left: -22.5%;
+            transform: translateY(-50%);
+          }
+        }
+
+    }
+
+  }
+
+}

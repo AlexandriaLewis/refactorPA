@@ -1,0 +1,24 @@
+section.photoView {
+  background-color: #847577;
+  height: 850px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  div.thePhoto {
+    width: 80%;
+    height: 80%;
+    background-color: #e5e6e4;
+
+
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    img {
+      height: 30%;
+    }
+
+  }
+
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Refactor Photo Album</title>
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+    <link rel="stylesheet" href="main.css" media="screen" title="no title" charset="utf-8" />
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
+
+    <!-- cookies for section.myAlbums -->
+    <script type="text/template" id="home01">
+      <a href="#" rel="albumPg">
+        <div class="cookie">
+          <div class="cutter">
+            <%= photo =>
+          </div>
+        </div>
+      </a>
+    </script>
+
+    <!-- header and cookies for div.home02 -->
+    <!-- put class='enhance' on the photos-->
+    <script type="text/template" id="home02">
+      <h3>
+        <%= title =>
+      </h3>
+      <a href="#" class="enhance" rel="photoView">
+        <div class="cookie">
+          <div class="cutter">
+            <%= photo =>
+          </div>
+        </div>
+      </a>
+    </script>
+
+  </head>
+  <body>
+    <section class="myAlbums">
+      <header><h1>The Albums</h1></header>
+      <div class="home01">
+        <a href="#" rel="albumPg">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" rel="albumPg">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" rel="albumPg">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" rel="albumPg">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" rel="albumPg">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" rel="albumPg">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="albumPg">
+      <aside>
+        <button id="arcBtn"><h4>architecture</h4></button>
+        <button id="forBtn"><h4>forest</h4></button>
+        <button id="nigBtn"><h4>night</h4></button>
+        <button id="patBtn"><h4>path</h4></button>
+        <button id="walBtn"><h4>wall</h4></button>
+        <button id="widBtn"><h4>wide</h4></button>
+        <button id="home" rel="myAlbums"><h4>home</h4></button>
+      </aside>
+      <div class="home02">
+        <h3>Test Title</h3>
+        <a href="#" class="enhance" rel="photoView">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" class="enhance" rel="photoView">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" class="enhance" rel="photoView">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" class="enhance" rel="photoView">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" class="enhance" rel="photoView">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+        <a href="#" class="enhance" rel="photoView">
+          <div class="cookie">
+            <div class="cutter"></div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="photoView" rel="albumPg">
+      <div class="thePhoto"></div>
+    </section>
+
+    <script src="bower_components/underscore/underscore.js" charset="utf-8"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- <script src="photos.js"></script>
+    <script src="variables.js"></script>
+    <script src="myAlbums.js"></script> -->
+    <script src="templates.js"></script>
+    <script src="objects.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
